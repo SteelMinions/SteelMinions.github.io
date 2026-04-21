@@ -1,0 +1,109 @@
+/* 
+Steel Minions Website CSS
+Note: All colour schemes are based on the new Steel Minions colour palette.
+This palette was made by our banner designers Molly and Brad
+
+For any questions about the CSS styling, please refer to the SOP document.
+*/
+
+
+/* Main Styling */
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+
+/* Custom styling */
+
+/*
+Background
+*/
+.header-background {
+    background: #3967B1;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+}
+
+.containers-background {
+    background: #3967B1;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* 
+Border
+*/
+.border-custom {
+    border: 2px solid;
+    border-image: linear-gradient(90deg,rgba(218, 157, 46, 1) 0%, rgba(237, 81, 40, 1) 100%) 1;
+}
+
+.border-custom-top{
+    border-top: 2px solid;
+    border-image: linear-gradient(90deg,rgba(218, 157, 46, 1) 0%, rgba(237, 81, 40, 1) 100%) 1;
+}
+
+.border-custom-bottom{
+    border-bottom: 2px solid;
+    border-image: linear-gradient(90deg,rgba(218, 157, 46, 1) 0%, rgba(237, 81, 40, 1) 100%) 1;
+}
+
+.border-custom-left{
+    border-left: 2px solid;
+    border-image: linear-gradient(90deg,rgba(218, 157, 46, 1) 0%, rgba(237, 81, 40, 1) 100%) 1;
+}
+
+.border-custom-right{
+    border-right: 2px solid;
+    border-image: linear-gradient(90deg,rgba(218, 157, 46, 1) 0%, rgba(237, 81, 40, 1) 100%) 1;
+}
+
+/*
+Button styling using steel minions colour pallent.
+
+*/
+
+.button-custom {
+    background-color: #DA9D2E;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.button-custom:hover {
+    background-color: #ED5128;
+    color: white;
+}
+
+/* Carousel styling */
+
+
+/* Image styling */
+
+
+@media (min-width: 768px) {
+    .header-background img {
+        max-width: 500px;
+        height: auto;
+    }
+}
+
+@media (max-width: 767px) {
+    .header-background img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
