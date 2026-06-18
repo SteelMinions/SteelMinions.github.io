@@ -6,7 +6,7 @@
 
 ### Date: 2024-06-01
 
-### author: Matthew Ryan Dudley
+### Author: Matthew Ryan Dudley
 
 ### Contact: matthewrdudley@gmail.com
 
