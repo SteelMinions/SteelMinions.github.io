@@ -626,23 +626,25 @@ footer button:focus {
 .feature-section .row {
   min-height: 100%;
 }
-
-#rcc-carousel {
+/* Re-Center Carousel */
+.rcc-carousel {
   height: 100%;
   display: flex;
 }
 
-#rcc-carousel .carousel,
-#rcc-carousel .carousel-inner,
-#rcc-carousel .carousel-item,
-#rcc-carousel img {
+.rcc-carousel .carousel,
+.rcc-carousel .carousel-inner,
+.rcc-carousel .carousel-item,
+.rcc-carousel img {
   height: 100%;
 }
 
-#rcc-carousel img {
+.rcc-carousel img {
   object-fit: cover;
   width: 100%;
 }
+
+
 
 /* Text styling */
 .text-custom {
